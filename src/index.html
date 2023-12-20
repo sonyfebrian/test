@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Flex Website Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+<!--HTML content goes here-->
+<h8k-navbar header="Responsive Flex Website Layout"></h8k-navbar>
+
+<div class="my-50 mx-auto">
+    <div class="container">
+        <div class="layout">
+            <div class="box header"></div>
+            <div class="main">
+                <div class="box article"></div>
+                <div class="box aside"></div>
+            </div>
+            <div class="box footer"></div>
+        </div>
+        <div class="template">
+            <div class="box" data-template-title="header"></div>
+            <div class="box" data-template-title="article"></div>
+            <div class="box" data-template-title="aside"></div>
+            <div class="box" data-template-title="footer"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+</html>
